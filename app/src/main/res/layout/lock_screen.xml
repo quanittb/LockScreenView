@@ -1,0 +1,27 @@
+<!-- overlay_layout.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/overlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" /> <!-- Đây là lớp mờ để làm nền -->
+
+    <!-- Nội dung của overlay view -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quân"
+            android:gravity="center"></TextView>
+        <!-- Nội dung bạn muốn hiển thị trên overlay view -->
+
+    </LinearLayout>
+
+</FrameLayout>
